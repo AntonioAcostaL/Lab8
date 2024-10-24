@@ -158,11 +158,6 @@ void eliminarEnArbol(ArbolBinario *arbol, void *dato, int (*comparar)(void*, voi
     arbol->tam--;
 }
 
-#include <stdlib.h>
-#include <stdio.h>
-
-// Estructuras y funciones anteriores...
-
 // Función auxiliar para encontrar la suma de cada nivel (BFS)
 int max(int a, int b) {
     return (a > b) ? a : b;
